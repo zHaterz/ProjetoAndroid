@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:"bebas";
+    src: url(../fontes/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family:"droid" ;
+    src: url(../fontes/idroid.otf);
+}
+
+*{
+    margin: 0px;
+}
+
+:root{
+   --cor1:#72EE8F;
+   --cor2:#2AEB56;
+   --cor3:#136B28;
+   --cor4:#336B40;
+   --cor5:#21B844;
+
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-Droid: 'droid', Arial;
+    --font-Desq: 'bebas', Arial;
+}
+
+
+body {
+    text-align: justify;
+    background-color: var(--cor1);
+    font-family:var(--font-padrao)
+    
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor2),var(--cor3));
+    box-shadow: 1px 1px 8px black;
+}
+
+header h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 2.8em;
+    font-family: var(--font-Desq);
+}
+
+header p {
+    text-align: center;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+nav{
+    margin: 0px 10px;
+    padding-bottom: 10px;
+}
+
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav a:hover{
+    color: var(--cor5);
+    background-color: var(--cor1);
+    border-radius: 10px;
+    
+}
+
+article {
+    background-color: white;
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 8px black;
+}
+
+article h1{
+    font: normal 1.4em var(--font-Droid);
+    text-indent: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 8px #21B844;
+}
+
+article h2{
+    font: normal 1.2em var(--font-Droid);
+    text-indent: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 8px #21B844;
+}
+
+
+article p {
+    padding: 10px;
+    text-indent: 10px;
+    margin-left: 10px;
+}
+
+
+
+img {
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+
+div{
+    background-color: #136B28;
+    padding: -10px;
+}
+
+div {    
+    width: 90%;
+    position: relative;
+    padding-bottom: 56.25%; 
+    padding-top: 25px;
+    height: 0;
+    margin:0 auto;
+}
+
+div iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+aside{
+    margin-top: 20px;
+    background-color: #21B844;
+    border-radius: 10px;
+}
+
+aside h3{
+    background-color: var(--cor4);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+
+}
+    
+
+ul {
+    columns: 2;
+    text-align: justify;
+}
+
+
+
+footer{
+    background-color: var(--cor3);
+    color: white;
+    text-align: center;
+    padding: 4px;
+}
+    

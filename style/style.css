@@ -37,6 +37,7 @@ body {
 header{
     background-image: linear-gradient(to bottom, var(--cor2),var(--cor3));
     box-shadow: 1px 1px 8px black;
+    min-width: 369px;
 }
 
 header h1 {
@@ -75,7 +76,7 @@ nav a:hover{
 article {
     background-color: white;
     max-width: 800px;
-    min-width: 300px;
+    min-width: 350px;
     margin: auto;
     margin-bottom: 20px;
     border-bottom-left-radius: 10px;
@@ -107,7 +108,7 @@ article p {
 
 
 
-img {
+picture img {
     max-width: 600px;
     display: block;
     margin: auto;
